@@ -1,3 +1,18 @@
+# Mi3x MkII Firmware config
+
+This is a Marlin-2.0.7.2 config for my custom 3D Printer.
+
+This version is based on this hardware:
+
+* Hot end: [e3d V6 hotend](https://e3d-online.com/products/v6-all-metal-hotend)
+* Extruder (direct): [e3d Titan](https://e3d-online.com/products/titan-extruder)
+* Mainboard: SKR 1.4 Turbo
+* BTT TFT24 touch display
+* BigTreeTech ESP-01S WIFI module 
+* Motor Drivers: DRV8825
+* Hot Bed: Aibecy Aluminum Heated Bed 12V Hotbed (220 x 220 x 3mm)
+* Motors: Nema 17 for X/Y/E, (dual) Nema 17 threaded rod for Z
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
