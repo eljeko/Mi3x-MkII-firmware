@@ -6,8 +6,8 @@ This version is based on this hardware:
 
 * Hot end: [e3d V6 hotend](https://e3d-online.com/products/v6-all-metal-hotend)
 * Extruder (direct): [e3d Titan](https://e3d-online.com/products/titan-extruder)
-* Mainboard: SKR 1.4 Turbo
-* BTT TFT24 touch display
+* Mainboard: [SKR 1.4 Turbo](https://www.bigtree-tech.com/products/btt-skr-v1-4-skr-v1-4-turbo-32-bit-control-board.html)
+* Display: [BTT TFT24](https://www.bigtree-tech.com/products/bigtreetech-direct-tft24-v1-1-2-4inch-screen-with-touch-screen-and-12864-lcd-display-two-modes.html)
 * BigTreeTech ESP-01S WIFI module 
 * Motor Drivers: DRV8825
 * Hot Bed: Aibecy Aluminum Heated Bed 12V Hotbed (220 x 220 x 3mm)
