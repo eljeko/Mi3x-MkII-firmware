@@ -1,6 +1,6 @@
 # Mi3x MkII Firmware config
 
-This is a Marlin-2.0.7.2 config for my custom 3D Printer.
+This is a Marlin-2.0.7.2 config for custom Prusa i3 3D Printer.
 
 This version is based on this hardware:
 
@@ -10,7 +10,7 @@ This version is based on this hardware:
 * Display: [BTT TFT24](https://www.bigtree-tech.com/products/bigtreetech-direct-tft24-v1-1-2-4inch-screen-with-touch-screen-and-12864-lcd-display-two-modes.html)
 * BigTreeTech ESP-01S WIFI module 
 * Motor Drivers: DRV8825
-* Hot Bed: Aibecy Aluminum Heated Bed 12V Hotbed (220 x 220 x 3mm)
+* Hot Bed: Aibecy Aluminum Heated Bed 12V Hotbed (220mm x 220mm x 3mm)
 * Motors: Nema 17 for X/Y/E, (dual) Nema 17 threaded rod for Z
 
 # Marlin 3D Printer Firmware

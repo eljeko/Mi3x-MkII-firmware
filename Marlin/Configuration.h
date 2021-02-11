@@ -131,7 +131,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Mi3x v2.4"
+#define CUSTOM_MACHINE_NAME "Mi3x v2.6"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -500,10 +500,9 @@
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
     // e3d V6 extruder
-    #define DEFAULT_Kp 24.81
-    #define DEFAULT_Ki 1.84
-    #define DEFAULT_Kd 83.85
-
+    #define DEFAULT_Kp 25.64
+    #define DEFAULT_Ki 2.01
+    #define DEFAULT_Kd 81.90
     //#define DEFAULT_Kp  22.20
     //#define DEFAULT_Ki   1.08
     //#define DEFAULT_Kd 114.00
@@ -552,9 +551,9 @@
   //#define DEFAULT_bedKd 305.4
   
   //mi3x bed
-  #define DEFAULT_bedKp 543.27
-  #define DEFAULT_bedKi 87.26
-  #define DEFAULT_bedKd 845.60
+  #define DEFAULT_bedKp 119.33
+  #define DEFAULT_bedKi 17.49
+  #define DEFAULT_bedKd 542.72
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -698,7 +697,7 @@
 //#define Z2_DRIVER_TYPE A4988
 //#define Z3_DRIVER_TYPE A4988
 //#define Z4_DRIVER_TYPE A4988
-//#define E0_DRIVER_TYPE A4988 //@todo: set back to after update DRV8825
+#define E0_DRIVER_TYPE DRV8825 //@todo: set back to after update DRV8825
 //#define E1_DRIVER_TYPE A4988
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
@@ -1098,14 +1097,14 @@
 // @section machine
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR true
-#define INVERT_Y_DIR false
-#define INVERT_Z_DIR true
+#define INVERT_X_DIR false
+#define INVERT_Y_DIR true
+#define INVERT_Z_DIR false
 
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR false //Titan
+#define INVERT_E0_DIR true //Titan
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
