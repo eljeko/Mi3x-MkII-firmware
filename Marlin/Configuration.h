@@ -131,7 +131,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Mi3x v2.6"
+#define CUSTOM_MACHINE_NAME "Mi3x v2.7.4"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -500,9 +500,9 @@
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
     // e3d V6 extruder
-    #define DEFAULT_Kp 25.64
-    #define DEFAULT_Ki 2.01
-    #define DEFAULT_Kd 81.90
+    #define DEFAULT_Kp 24.81
+    #define DEFAULT_Ki 1.84
+    #define DEFAULT_Kd 83.85
     //#define DEFAULT_Kp  22.20
     //#define DEFAULT_Ki   1.08
     //#define DEFAULT_Kd 114.00
@@ -551,9 +551,9 @@
   //#define DEFAULT_bedKd 305.4
   
   //mi3x bed
-  #define DEFAULT_bedKp 119.33
-  #define DEFAULT_bedKi 17.49
-  #define DEFAULT_bedKd 542.72
+  #define DEFAULT_bedKp 543.27
+  #define DEFAULT_bedKi 87.26
+  #define DEFAULT_bedKd 845.60
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -752,7 +752,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 320, 320, 3200, 419 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 320, 320, 3200, 813.73 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1134,11 +1134,11 @@
 
 // The size of the print bed
 #define X_BED_SIZE 200
-#define Y_BED_SIZE 200
+#define Y_BED_SIZE 190
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS -37
-#define Y_MIN_POS 0
+#define Y_MIN_POS -15
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
